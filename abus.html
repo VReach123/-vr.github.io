@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cambodian Cuisine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #fdfdfd;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 50px;
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a.active {
+      color: #b74372;
+    }
+
+   .auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons a {
+  padding: 6px 16px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.auth-buttons .login {
+  background: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.auth-buttons .register {
+  background: #b35153;
+  color: white;
+}
+
+
+    .hero {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  padding: 80px 50px;
+  background: linear-gradient(to right, #ffffff 50%, #e4f7d2 50%);
+  height: 100vh; /* Optional: full height */
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 400px;
+  border-radius: 20px;
+}
+    
+    .buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .buttons button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .explore {
+      background-color: #da44d5;
+      color: white;
+      border: none;
+    }
+
+    .view {
+      background: transparent;
+      color: #c77ec8;
+      border: 2px solid #964676;
+    }
+
+    .hero-img img {
+      width: 400px;
+      border-radius: 20px;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-img img {
+        margin-top: 30px;
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="download.png " alt="Logo" />
+    </div>
+    <nav>
+ <a href="index.html">Home</a>
+      <a href="food.html">Food</a>
+      <a href="abus.html" class="active">About Us</a>
+    </nav>
+    <div class="auth-buttons">
+     <a href="Login.html" class="login">Login</a>
+  <a href="ccc.html" class="register">Register</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-img">
+      <img src="Ah-Mok.png" alt="Cambodian Dish" />
+    </div>
+  </section>
+</body>
+</html>
